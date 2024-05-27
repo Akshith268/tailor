@@ -1,0 +1,86 @@
+/* style.css */
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+
+
+.card { 
+	max-width: 33rem; 
+	background: white; 
+  margin: auto;
+	padding: 1rem; 
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+	width: 100%; 
+	border-radius: 0.5rem; 
+  align-items: center;
+} 
+
+.star { 
+	font-size: 10vh; 
+} 
+
+.one { 
+	color: rgb(255, 0, 0); 
+} 
+
+.two { 
+	color: rgb(255, 106, 0); 
+} 
+
+.three { 
+	color: rgb(251, 255, 120); 
+} 
+
+.four { 
+	color: rgb(255, 255, 0); 
+} 
+
+.five { 
+	color: rgb(24, 159, 14); 
+}
+
+
+p {
+  padding: 2rem 20%;
+}
+
+p:nth-child(2) {
+  background: purple;
+  color: white;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 20rem 20%;
+}
+
+.cont{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.name{
+  font-size: 50px;
+}
+
+.heading{
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.rated{
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}

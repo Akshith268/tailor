@@ -1,0 +1,218 @@
+ @import '../App.scss';
+
+// body{
+//     background: url('https://img.freepik.com/free-photo/tailoring-processs_1098-17986.jpg');
+//     font-family: 'Roboto', sans-serif;
+//     font-size: 16px;
+//     margin: 0;
+//     padding: 0;
+//     color: black;
+//     line-height: 1.5;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     -webkit-tap-highlight-color: transparent;
+//     -webkit-touch-callout: none;
+//     -webkit-user-select: none;
+//     -moz-user-select: none;
+//     -ms-user-select: none;
+//     user-select: none;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+//     background-attachment: fixed;
+//     overflow-x: hidden;
+//     overflow-y: auto;
+//     height: 100vh;
+//     width: 100vw;
+//     @include mobile{
+//         font-size: 14px;
+
+//     }
+  
+// }
+// .home{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     height: 100vh;
+
+
+//     h1{
+        
+//         font-size: 2.5rem;
+//         margin-bottom: 1rem;
+//         text-align: center;
+//         color: #f7f4f4;
+//         font-family: 'Courier New', Courier, monospace;
+//         @include mobile{
+//             font-size: 2rem;
+//         }
+
+//     }
+
+//     .content{
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+//         width: 100%;
+//         max-width: 500px;
+//         padding: 1rem;
+//         background: rgba(255,255,255,0.8);
+//         border-radius: 5px;
+//         box-shadow: 0 0 10px rgba(0,0,0,0.2);
+//         margin-bottom: 1rem;
+//         a{
+//             text-decoration: none;
+//             color: #333;
+//             &:hover{
+//                 text-decoration: underline;
+//             }
+//         }
+//         .form{
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: center;
+//             width: 100%;
+//             .input{
+//                 width: 100%;
+//                 margin-bottom: 1rem;
+//                 input{
+//                     width: 100%;
+//                     padding: 0.5rem;
+//                     border: 1px solid #ccc;
+//                     border-radius: 5px;
+//                     font-size: 1rem;
+//                     &:focus{
+//                         outline: none;
+//                         border-color: #333;
+//                     }
+//                 }
+//             }
+//             .button{
+//                 width: 100%;
+//                 button{
+//                     width: 100%;
+//                     padding: 0.5rem;
+//                     border: 1px solid #ccc;
+//                     border-radius: 5px;
+//                     font-size: 1rem;
+//                     background: #333;
+//                     color: #fff;
+//                     cursor: pointer;
+//                     &:focus{
+//                         outline: none;
+//                         border-color: #333;
+//                     }
+//                 }
+//             }
+//         }
+//         @include mobile{
+//             padding: 0.5rem;
+//         }
+//     }
+
+
+// }
+
+// // background: url('https://img.freepik.com/free-photo/tailoring-processs_1098-17986.jpg');
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://img.freepik.com/free-photo/tailoring-processs_1098-17986.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    
+    @include mobile{
+        font-size: 14px;
+
+    }
+  
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    background: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+    a{
+        text-decoration: none;
+        color: #333;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .input{
+            width: 100%;
+            margin-bottom: 1rem;
+            input{
+                width: 100%;
+                padding: 0.5rem;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 1rem;
+                &:focus{
+                    outline: none;
+                    border-color: #333;
+                }
+            }
+        }
+        .button{
+            width: 100%;
+            button{
+                width: 100%;
+                padding: 0.5rem;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 1rem;
+                background: #333;
+                color: #fff;
+                cursor: pointer;
+                &:focus{
+                    outline: none;
+                    border-color: #333;
+                }
+            }
+        }
+    }
+    @include mobile{
+        padding: 0.5rem;
+    }
+
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #f7f4f4;
+    font-family: 'Courier New', Courier, monospace;
+    @include mobile{
+        font-size: 2rem;
+    }
+}

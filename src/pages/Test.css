@@ -1,0 +1,14 @@
+/* Test.css */
+
+.map-container {
+    height: 100vh; /* Adjust the height as needed */
+    width: 100%;
+  }
+  
+  .map {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* You can add more styles as needed */
+  

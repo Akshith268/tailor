@@ -1,0 +1,63 @@
+@import '../App.scss';
+
+
+p {
+    padding: 2rem 20%;
+  }
+  
+  p:nth-child(2) {
+    background: purple;
+    color: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 20rem 20%;
+  }
+
+  .container {
+    margin: 0;
+    font: 20px/2.2 system-ui;
+    color: #333;
+    background: #fff;
+    overflow-x: hidden;
+  }
+
+  #username{
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    background: #f7f4f4;
+    color: black;
+    font-weight: bold;
+    @include mobile{
+        width: 250px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+  }
+
+  #searching{
+     font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: bold;
+  }
+
+
+  body{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+  }
